@@ -1,0 +1,21 @@
+{
+  "name": "interLoc",
+  "version": "1.0.0",
+  "description": "Exploration of Localization and Internationalization",
+  "main": "server.js",
+  "author": "ttog",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "i18n": "^0.13.3"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

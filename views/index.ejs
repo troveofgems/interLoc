@@ -1,0 +1,63 @@
+<html lang="<%= locale %>">
+<head>
+    <title><%= translate('title') %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/style/main.css"/>
+</head>
+<%
+    let pageStructure = (locale === 'ja') ? 'verticalForJapanese' : 'westernPageStructure';
+%>
+<nav class="sticky-top text-center">
+    <div class="alert alert-info" role="alert">
+        <%= translate('nav_welcome') %>
+        <div>
+            <h3 class="mt-5">
+                <%= translate('nav_title') %>
+            </h3>
+            <ul>
+                <% if (locale !== 'en-US') { %>
+                    <li>
+                        <a href="/?lang=en-US" hreflang="en-US" referrerpolicy="no-referrer" rel="noreferrer noopener" target="_self">
+                            <%= translate('nav_option_0') %>
+                        </a>
+                    </li>
+                <% } %>
+                <% if (locale !== 'en') { %>
+                    <li>
+                        <a href="/?lang=en" hreflang="en" referrerpolicy="no-referrer" rel="noreferrer noopener" target="_self">
+                            <%= translate('nav_option_1') %>
+                        </a>
+                    </li>
+                <% } %>
+                <% if (locale !== 'cs') { %>
+                    <li>
+                        <a href="/?lang=cs" hreflang="cs" referrerpolicy="no-referrer" rel="noreferrer noopener" target="_self">
+                            <%= translate('nav_option_2') %>
+                        </a>
+                    </li>
+                <% } %>
+                <% if (locale !== 'ja') { %>
+                    <li>
+                        <a href="/?lang=ja" hreflang="ja" referrerpolicy="no-referrer" rel="noreferrer noopener" target="_self">
+                            <%= translate('nav_option_3') %>
+                        </a>
+                    </li>
+                <% } %>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body class="<%= pageStructure %> <%= timeOfDay %> <%= locale %>-<%= timeOfDay %>">
+
+<div class="pageContents">
+    <h1>
+        <%= translate('title') %>
+    </h1>
+    <div>
+        <h3><%= translate(timeOfDay) %></h3>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

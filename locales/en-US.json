@@ -1,0 +1,11 @@
+{
+	"title": "US English",
+	"nav_welcome": "Welcome to the Internationalization and Localization Project. Change the page language to demo.",
+	"nav_title": "Change The Language",
+	"nav_option_1": "General English",
+	"nav_option_2": "Czech",
+	"nav_option_3": "Japanese",
+	"morning": "Good Morning",
+	"afternoon": "Good Afternoon",
+	"evening": "Good Evening"
+}
