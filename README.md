@@ -11,6 +11,13 @@ language and culture.
 The [standards for Internationalization & Localization](https://www.w3.org/International/questions/qa-i18n) have been 
 set by W3C.
 
+## Steps To Demo
+
+    git clone https://github.com/troveofgems/interLoc.git
+    cd interLoc
+    yarn install
+    yarn start
+    Open URL http://localhost:PORT
 ----------------------------------------------------
 
 ## Detecting A User's Locale via Client-Side
@@ -55,7 +62,6 @@ Explore this concept by adding and removing languages to your browser and re-ren
 ## i10n & i18n
 i18n - Internationalization
 i10n - Localization
-
 
 ------------------------------
 
