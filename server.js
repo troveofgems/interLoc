@@ -24,7 +24,7 @@ Application.use((req, res, next) => {
   next();
 });
 
-Application.get('/', (req, res, next) => {
+Application.get('/interLoc', (req, res, next) => {
   // console.log(req.query); // Verify The Lang Code
   //let browserAcceptedLocales = req.header('Accept-Language');
   //res.status(200).json({browserAcceptedLocales, success: true});
