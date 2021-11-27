@@ -20,6 +20,12 @@ set by W3C.
     Open URL http://localhost:PORT
 ----------------------------------------------------
 
+## Demo Previews
+![US Good Evening](assets/us-evening.png)
+![CS Good Evening](assets/cs-evening.png)
+![JA Good Evening](assets/ja-evening.png)
+
+
 ## Detecting A User's Locale via Client-Side
 
 Copy and paste the code from the block below into the console of a browser client.
