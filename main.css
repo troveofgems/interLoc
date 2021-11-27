@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+}
+
+.morning,
+.afternoon,
+.evening {
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.cs-morning {
+    background-image: url("/img/cs/kevin-andre-morning-unsplash.jpg");
+}
+
+.cs-afternoon {
+    background-image: url("/img/cs/afternoon.jpg");
+}
+
+.cs-evening {
+    background-image: url("/img/cs/yoav-aziz-evening-unsplash.jpg");
+}
+
+.en-morning, .en-US-morning {
+    background-image: url("/img/en/morning.jpg");
+}
+
+.en-afternoon, .en-US-afternoon {
+    background-image: url("/img/en/afternoon.jpg");
+}
+
+.en-evening, .en-US-evening {
+    background-image: url("/img/en/evening.jpg");
+}
+
+.ja-morning {
+    background-image: url("/img/ja/christian-papaux-morning-unsplash.jpg");
+}
+
+.ja-afternoon {
+    background-image: url("/img/ja/afternoon.jpg");
+}
+
+.ja-evening {
+    background-image: url("/img/ja/alex-knight-evening-unsplash.jpg");
+}
+
+.pageContents {
+    background-color: rgba(0, 0, 0, .5);
+    color: #C0C0C0;
+    padding: .75rem;
+}
+
+.alert {
+    margin-bottom: 0;
+}
+
+.verticalForJapanese {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    width: 100vw;
+    writing-mode: vertical-rl;
+}
