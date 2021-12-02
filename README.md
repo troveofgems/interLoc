@@ -1,4 +1,5 @@
 # InterLoc Project - Internationalization & Localization
+[Application Demo](https://troveofgems.tech/interLoc/)
 ## Purpose
 Project showcases detecting a user's locale and serving the specified translation for a given page.
 Quick delve into the differences between internationalization and localization, as well as strategies and patterns
